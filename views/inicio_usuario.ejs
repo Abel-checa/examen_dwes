@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.ejs">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="error.ejs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% if (usuario) { %>
+    <%- include('./partials/header_user.ejs') %>
+    
+     <h1>Welcome <%=usuario%></h1>
+     
+    <% }else{%>
+        <h1>Mal</h1>
+    <%} %>
+</body>
+</html>

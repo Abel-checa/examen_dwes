@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#error_gif{
+    height: 80%;
+    width: 80%;
+    border: 1px solid;
+
+}
+
+#error_gif img {
+    height: 100%;
+    width: 100%;
+}
+#titulo_error{
+    font-size: 30px;
+    color: black;
+}
